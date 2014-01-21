@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@-moz-viewport { width: device-width; scale:1; } 
+@-ms-viewport { width: device-width; scale:1; }
+@-o-viewport { width: device-width; scale:1; } 
+@-webkit-viewport { width: device-width; scale:1; }*/
+@viewport { width: device-width; scale:1; }
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100;
+	text-size-adjust: 100%;
+}
+
+html, body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+.header {
+	text-align: center;
+	padding: 0.25rem 0%;
+	background-color: #8C8C8C;
+}
+
+h3 {
+	color: #FFFFFF;
+}
+
+img {
+	width: 100%;
+}
+
+.logo {
+	width: 70px;
+}
+
+.main {
+	padding: 1.5rem 5% 1rem 5%;
+}
+
+h1 {
+	text-align: center;
+}
+
+.bottom {
+	background-color: #757575;
+	padding-bottom: 3rem;
+	text-align: center;
+	padding: 0.25rem 0%;
+}
+
+h4 {
+	color: #FFFFFF;
+}
